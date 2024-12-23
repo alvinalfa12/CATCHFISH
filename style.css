@@ -1,0 +1,280 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana;
+}
+
+.navigasi {
+    background-color: #AF1740;
+    width: 100%;
+    height: 70px;
+    color: white;
+    position: fixed;
+}
+
+.logo {
+    float: left;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+}
+
+.menu {
+    margin-left: 900px;
+    padding-top: 27px;
+
+}
+
+
+.menu ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 50px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.menu ul li a:hover {
+    color: #CC2B52;
+    font-style: italic;
+}
+
+
+.banner {
+    background-color: #CC2B52;
+    height: 540px;
+    text-align: center;
+    color: white;
+}
+
+.banner img{
+    border-radius: 100px;
+    height: 150px;
+    border: 6px solid white;
+    margin-top: 100px;
+}
+
+.banner h1{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.banner button{
+    margin-top: 60px;
+    padding: 20px;
+    width: 400px;
+    border-radius: 50px;
+    border: none;
+    color: #AF1740;
+}
+
+.banner button:hover{
+    background-color: #CC2B52;
+    border: 2px solid white;
+    color: white;
+}
+
+h1 span:before { 
+    content: "" ;
+    animation: gerak infinite 6s ease;
+    transform: translateY(50%);
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+}
+
+@keyframes gerak {
+    0% {
+        content: "Selamat datang";
+    }
+    50% {
+        content: "Di toko kami";
+    }
+    100% {
+        content: "CATCHFISH";
+    }
+}
+
+.contact {
+    background-color: #ffffff;
+    width: 100%;
+    height: 40px;
+    color: rgb(238, 7, 7);
+}
+
+.kontak {
+    float: left;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+}
+
+.menukontak {
+    margin-left: 300px;
+    padding-top: 10px;
+}
+
+.menukontak ul li{
+    display: inline;
+    margin-right: 100px;
+}
+
+.menukontak ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
+
+
+.profil {
+    background-color: #AF1740;
+    width: 100%;
+    height: 60px;
+    color: white;
+    position: fixed;
+}
+.box-toko {
+    text-align: center;
+    color: white;
+    margin-top: 10px;
+    align-content: center;
+}
+
+.tentang {
+    background-color: #CC2B52;
+    height: 600px;
+    text-align: center;
+    color: rgb(255, 0, 0);
+}
+
+.penjelasan {
+    background-color: white;
+    height: 430px;
+    margin-left: 120px;
+    margin-right: 120px;
+    float: middle;
+    padding-top: 100px;
+    padding-bottom: 80px;
+    
+}
+
+.penjelasan h1{
+    margin-bottom: 10px;
+}
+
+.penjelasan h2{
+    margin-top: 30px;
+    margin-bottom: none;
+}
+
+
+
+.produk {
+    background-color: #CC2B52;
+    height: 650px;
+    text-align: center;
+    color:  #CC2B52;
+}
+
+.daftar-produk {
+    padding-top: none;
+    margin-left: 170px;
+}
+
+.daftar-produk h1{
+    padding-top: 50px;
+    float: middle;
+}
+
+.saran {
+    background-color: #CC2B52;
+    height: 650px;
+    color:  #f3f3f3;
+    padding-top: 80px;
+}
+
+
+.feedback {
+    background: #CC2B52;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px white;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: var(--text-color);
+    font-weight: bold;
+}
+
+input,
+select,
+textarea {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background: var(--light-bg);
+    font-size: 1rem;
+}
+
+textarea {
+    resize: vertical;
+    min-height: 120px;
+}
+
+button {
+    background-color: var(--secondary-color);
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: var(--accent-color);
+}
+
+
+@media (max-width: 480px) {
+    .logo-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero {
+        padding: 2rem 1rem;
+    }
+
+    .form-group {
+        margin-bottom: 1rem;
+    }
+
+    button {
+        width: 100%;
+    }
+}
+
+
+
+
+
+
